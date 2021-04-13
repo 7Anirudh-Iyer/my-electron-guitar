@@ -1,0 +1,70 @@
+.titlebar{
+    max-height: 90px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+}
+@font-face{
+    font-family: guitar-script;
+    src: url(DancingScript-Regular.ttf)
+}
+p{
+    text-align: center;
+    font-size: 25px;
+    width: 50%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.aboutus{
+    display: flex;
+    justify-content: space-around;
+}
+.tm{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sheets{
+    display: flex;
+    justify-content: space-evenly;
+}
+.tfs{
+    display: flex;
+    justify-content: space-evenly;
+}
+img{
+    border-radius: 150px;
+}
+button{
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    border: white;
+    background-color: rgb(7, 7, 97);
+    color:gold;
+}
+.hmmm{
+    display: flex;
+    justify-content: space-around;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+/* img:hover{
+    transform: rotateY(360deg);
+    transition: 2s;
+} */
+.dung{
+    display: flex;
+    justify-content: center;
+}
+canvas{
+    border: dashed;
+    border-color: azure;
+}
+a:link{
+    color: yellow;
+}
+.tutorialss{
+    display: flex;
+    justify-content: center;
+}
